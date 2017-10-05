@@ -1,0 +1,123 @@
+body {
+	display: block;
+	background: #2B81AC;
+	font-family: sans-serif, “Lucida Sans Unicode”, “Lucida Grande”;
+	color: white;
+}
+
+.main {
+	display: block;
+	background: grey;
+	height: 100%;
+	padding: 15px;
+	background: #3399CC;
+}
+
+.wrapper {
+	display: block;
+	background: grey;
+	height: 100%;
+	width: 800px;
+	margin: 0 auto;
+	padding: 15px;
+	background: #3399CC;
+}
+
+.list {
+	margin: 0 auto;
+	list-style-type: none;
+	padding: 0;
+	font-size: 0;
+	text-align: center;
+	border: 1px solid white;
+}
+
+.list-item {
+	display: inline-block;
+	padding-top: 15px;
+	font-size: 20px;
+	box-sizing: border-box;
+	border: 1px solid white;
+}
+
+
+/* Opacity */
+.list-item:hover {
+	opacity: 1;
+}
+
+ul:hover {
+	background: rgba(255,255, 255, 0.2);
+}
+
+ul:hover li {
+	opacity: 0.3;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+
+/* Opacity */
+
+/* List position */
+	ul li.col-25 {
+		display: inline-block;
+		width: 25%;
+	}
+
+	ul li.col-50 {
+		display: inline-block;
+		width: 50%;
+	}
+
+	ul li.col-100 {
+		display: inline-block;
+		width: 100%;
+	}a
+/* List position */
+
+/* Icon Colors */
+	ul li.color-blue {
+		background: #3399CC;
+	}
+
+	ul li.color-light {
+		background: #33CCCC;
+	}
+
+	ul li.color-purple {
+		background: #996699;
+	}
+
+	ul li.color-red {
+		background: #C24747;
+	}
+
+	ul li.color-orange {
+		background: #E2674A;
+	}
+
+	ul li.color-yellow {
+		background: #FFCC66;
+	}
+
+	ul li.color-light-green {
+		background: #99CC99;
+	}
+
+	ul li.color-grey {
+		background: #669999;
+	}
+	
+	ul li.color-pink {
+		background: #CC6699;
+	}
+
+	ul li.color-green {
+		background: #339966;
+	}
+
+	ul li.color-xz {
+		background: #666699;
+	}
+/* Icon Color */
+
